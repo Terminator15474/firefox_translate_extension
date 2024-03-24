@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "{UUID}": {
+            "updates": [
+                {
+                    "version": "1.0.0",
+                    "update_link": "https://raw.githubusercontent.com/Terminator15474/firefox_translate_extension/main/addon-0.1.0.xpi"
+                }
+            ]
+        }
+    }
+}
