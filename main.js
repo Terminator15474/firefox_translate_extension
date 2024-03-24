@@ -6,7 +6,7 @@ browser.menus.create({
     onclick: function(info, tab) {
         console.log(info.selectionText);
         browser.tabs.create({
-            url: "https://translate.google.com/#view=home&op=translate&sl=auto&tl=fr&text=" + info.selectionText
+            url: "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=" + info.selectionText
         });
     },
     contexts: ["selection"]
